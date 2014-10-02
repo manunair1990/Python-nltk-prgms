@@ -1,0 +1,10 @@
+********************
+PYTHON-NLTK-PROGRAMS
+Created by Manu.V.Nair
+manunair1990@gmail.com
+********************
+Install python & nltk module before run the program
+
+1. Extract.py
+	Extracting the words from a file having certain peculiarities like startingwith, endingwith & containing.
+

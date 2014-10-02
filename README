@@ -11,4 +11,7 @@ Install python & nltk module before run the program
 2. Concordance.py
 	Displaying the sentences from a file that containing user given word in a specific arrangement.
 
+3. Ngram.py
+	Gives the ngram in a file of user given number and rank. It also plot the result. 
+
 

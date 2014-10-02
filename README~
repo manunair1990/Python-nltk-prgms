@@ -17,5 +17,8 @@ Install python & nltk module before run the program
 4. Tag.py & Pos.py
 	Classify the words from a webpage that the url is user given into verbs,nouns & article. It also stores in database. Please read 'psql.txt' also before this program to run. Add appropriate <username>(manu) and <database>(testdb) name by editing the program file.
 
-5 Zipfs.py
-	Implementation of zipfs law on user given 4 files. The result is also plotting. 
+5. Zipfs.py
+	Implementation of zipfs law on user given 4 files. This program also plots the comparison graph between these files.
+
+6. Ari.py
+	Implementation of Automated Readability Index(ARI) on 4 user given files.

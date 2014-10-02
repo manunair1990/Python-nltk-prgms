@@ -1,0 +1,29 @@
+PostgreSQL database usage README file
+
+Installation
+$ sudo apt-get install postgresql
+
+To start the PostgreSQL server
+$ sudo service postgresql start
+
+To stop the PostgreSQL server
+$ sudo postgresql stop
+
+Installing psycopg2 module in system
+$ sudo apt-get install python-psycopg2
+
+Creating role
+$ sudo -u postgres createuser <username>
+
+Shall the new role be a superuser? (y/n) n
+Shall the new role be allowed to create databases? (y/n) y
+Shall the new role be allowed to create more new roles? (y/n) n
+
+Create database with owner <username>
+$ sudo -u postgres createdb <databasename> -O <username>
+
+To get into database
+$ psql <databasename>
+
+Selecting from the table in database
+-- SELECT * FROM <attributename>;
